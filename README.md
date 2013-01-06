@@ -14,4 +14,8 @@ Clone this repository and execute:
 
     $ bundle
     $ librarian-chef install
-  
+
+Chef solo
+-----------
+
+Execute ``` $ chef-solo -c solo.rb -r "role[sample]"``` to apply *sample* role.
